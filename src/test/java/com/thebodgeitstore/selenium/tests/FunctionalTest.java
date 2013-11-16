@@ -34,7 +34,7 @@ import com.thoughtworks.selenium.SeleneseTestCase;
 public class FunctionalTest extends SeleneseTestCase {
 
 	private WebDriver driver;
-	private String site = "http://localhost:8090/bodgeit/";
+	private String site = "http://localhost:8080/thebodgeitstore-1.4-SNAPSHOT/";
 	
 	public void setUp() throws Exception {
 		String target = System.getProperty("zap.targetApp");
@@ -189,6 +189,7 @@ public class FunctionalTest extends SeleneseTestCase {
 
 	public void tearDown() throws Exception {
 		driver.close();
+		driver.quit();
 	}
 
 	protected WebDriver getDriver() {
