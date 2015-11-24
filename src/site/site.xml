@@ -1,0 +1,13 @@
+<project name="Sample Project">
+    <bannerLeft>
+        <name>The Bodgeit Store project</name>
+        <href>https://github.com/ddt-tdd/bodgeit-maven</href>
+    </bannerLeft>
+    <body>
+        <menu name="Sample Project">
+            <item name="Overview" href="index.html"/>
+            <item name="Security Report" href="/zap-reports/index.html"/>
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>
