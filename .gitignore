@@ -1,1 +1,7 @@
-/target
+.classpath
+.project
+.settings/
+.idea/
+target/
+*.iml
+src/site/resources/zap-reports/

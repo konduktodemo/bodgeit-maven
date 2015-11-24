@@ -45,7 +45,9 @@ public class FunctionalITCase extends FunctionalTest {
 		}
 
 		Proxy proxy = new Proxy();
-		String proxyIP = properties.getProperty("zap.proxy");
+		String proxyHost = properties.getProperty("zap.proxy.host");
+		String proxyPort = properties.getProperty("zap.proxy.port");
+		String proxyIP = proxyHost + ":" + proxyPort;
 		proxy.setHttpProxy(proxyIP)
 		    .setFtpProxy(proxyIP)
 		    .setSslProxy(proxyIP)
