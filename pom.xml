@@ -3,7 +3,7 @@
 
     <groupId>com.thebodgeitstore</groupId>
     <artifactId>thebodgeitstore</artifactId>
-    <version>1.4</version>
+    <version>1.5-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <name>thebodgeitstore</name>
@@ -100,7 +100,7 @@
         <connection>scm:git:git@github.com:ddt-tdd/bodgeit-maven.git</connection>
         <url>scm:git:git@github.com:ddt-tdd/bodgeit-maven.git</url>
         <developerConnection>scm:git:git@github.com:ddt-tdd/bodgeit-maven.git</developerConnection>
-      <tag>thebodgeitstore-1.4</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
