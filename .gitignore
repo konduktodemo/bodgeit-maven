@@ -5,3 +5,5 @@
 target/
 *.iml
 src/site/resources/zap-reports/
+pom.xml.releaseBackup
+release.properties
