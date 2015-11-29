@@ -19,3 +19,10 @@ Then you can run the maven verify to perform the tests:
   mvn verify
 
 Good Luck and Develop Secure Web applications.
+
+## Releasing bodgeit project
+Releasing uses jgitflow plugin and a prayer-book
+
+mvn jgitflow:release-start
+
+mvn jgitflow:release-finish -DskipTests -DskipITs -DneDeploy=true

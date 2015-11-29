@@ -37,7 +37,7 @@
             <plugin>
                 <groupId>org.cryptable.zap</groupId>
                 <artifactId>zap-maven-plugin</artifactId>
-                <version>1.3</version>
+                <version>1.4-SNAPSHOT</version>
                 <configuration>
                     <!-- Windows -->
                     <!-- <zapProgram>C:\Work\Tools\ZAProxy\zap.bat</zapProgram> -->
@@ -55,7 +55,7 @@
                     <property.file.proxy.host>zap.proxy.host</property.file.proxy.host>
                     <property.file.proxy.port>zap.proxy.port</property.file.proxy.port>
                     <format>json</format>
-
+                    <jsonp>true</jsonp>
                 </configuration>
                 <executions>
                     <execution>
