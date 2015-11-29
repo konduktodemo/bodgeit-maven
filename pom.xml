@@ -36,8 +36,8 @@
             </plugin>
             <plugin>
                 <groupId>org.cryptable.zap</groupId>
-                <artifactId>mavenplugin</artifactId>
-                <version>1.3-SNAPSHOT</version>
+                <artifactId>zap-maven-plugin</artifactId>
+                <version>1.3</version>
                 <configuration>
                     <!-- Windows -->
                     <!-- <zapProgram>C:\Work\Tools\ZAProxy\zap.bat</zapProgram> -->
