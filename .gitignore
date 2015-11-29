@@ -7,3 +7,4 @@ target/
 src/site/resources/zap-reports/
 pom.xml.releaseBackup
 release.properties
+local.properties
