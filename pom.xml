@@ -3,7 +3,7 @@
 
     <groupId>com.thebodgeitstore</groupId>
     <artifactId>thebodgeitstore</artifactId>
-    <version>1.5</version>
+    <version>1.6-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <name>thebodgeitstore</name>
@@ -50,12 +50,12 @@
                     <apiKEY>o5eelimlkkn6bgkctgagvf8uno</apiKEY>
                     <targetURL>http://localhost:8080</targetURL>
                     <saveSession>false</saveSession>
-                    <reportsDirectory>./src/site/resources/zap-reports</reportsDirectory>
                     <reportsFilenameNoExtension>zaproxy</reportsFilenameNoExtension>
                     <property.file>local.properties</property.file>
                     <property.file.proxy.host>zap.proxy.host</property.file.proxy.host>
                     <property.file.proxy.port>zap.proxy.port</property.file.proxy.port>
                     <format>json</format>
+
                 </configuration>
                 <executions>
                     <execution>
