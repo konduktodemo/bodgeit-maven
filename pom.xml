@@ -50,7 +50,7 @@
                     <apiKEY>o5eelimlkkn6bgkctgagvf8uno</apiKEY>
                     <targetURL>http://localhost:8080</targetURL>
                     <saveSession>false</saveSession>
-                    <reportsFilenameNoExtension>zaproxy</reportsFilenameNoExtension>
+                    <reportsFilenameNoExtension>zap-report</reportsFilenameNoExtension>
                     <property.file>local.properties</property.file>
                     <property.file.proxy.host>zap.proxy.host</property.file.proxy.host>
                     <property.file.proxy.port>zap.proxy.port</property.file.proxy.port>
@@ -92,6 +92,10 @@
                 <groupId>external.atlassian.jgitflow</groupId>
                 <artifactId>jgitflow-maven-plugin</artifactId>
                 <version>1.0-m5.1</version>
+                <configuration>
+                    <noDeploy>true</noDeploy>
+                    <pushReleases>true</pushReleases>
+                </configuration>
             </plugin>
         </plugins>
     </build>
