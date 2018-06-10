@@ -31,8 +31,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import com.thoughtworks.selenium.SeleneseTestCase;
-
 public class FunctionalITCase extends FunctionalTest {
 
 	public void setUp() throws Exception {

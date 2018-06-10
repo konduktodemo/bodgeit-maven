@@ -19,19 +19,21 @@
  */
 package com.thebodgeitstore.selenium.tests;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 import org.apache.commons.lang.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-import com.thoughtworks.selenium.SeleneseTestCase;
+import org.junit.Assert.*;
 
 /*
  * Note that this is an example of how to use ZAP with Selenium tests,
  * not a good example of how to write good Selenium tests!
  */
-public class FunctionalTest extends SeleneseTestCase {
+public class FunctionalTest {
 
 	private WebDriver driver;
 	private String site = "http://localhost:8080/thebodgeitstore/";
