@@ -6,10 +6,14 @@ pipeline {
         }
     }
     stages {
+         stage('PreTest') {
+            steps {
+                sh 'pwd'
+            }
+        }
         stage('Build') {
             steps {
-                sh 'mvn clean install -DskipTests -DskipITs'
-                sh 'mvn jetty:run'
+                sh 'mvn clean install -DskipTests -DskipITs && mvn jetty:run'
             }
         }
     }
